@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="46" passed="43" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-28T14:20:15 IST" name="Suite" finished-at="2023-11-28T14:26:51 IST" duration-ms="396289">
+    <groups>
+      <group name="SanityTest">
+        <method signature="parameterizationTest.testParameterAtSuiteLevel(java.lang.String,java.lang.String)[pri:0, instance:com.Bibhu.Parameterization.parameterizationTest@31d7b7bf]" name="testParameterAtSuiteLevel" class="com.Bibhu.Parameterization.parameterizationTest"/>
+      </group> <!-- SanityTest -->
+    </groups>
+    <test started-at="2023-11-28T14:20:15 IST" name="Test" finished-at="2023-11-28T14:26:51 IST" duration-ms="396289">
+      <class name="com.Bibhu.WebAutomation.WindowsHandle">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.WindowsHandle@1139b2f3]" started-at="2023-11-28T14:22:14 IST" name="launchBrowser" finished-at="2023-11-28T14:22:17 IST" duration-ms="3448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.WindowsHandle@1139b2f3]" started-at="2023-11-28T14:22:17 IST" name="launchApplication" finished-at="2023-11-28T14:22:30 IST" depends-on-methods="com.Bibhu.WebAutomation.WindowsHandle.launchBrowser" duration-ms="12871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="titleofWindows()[pri:0, instance:com.Bibhu.WebAutomation.WindowsHandle@1139b2f3]" started-at="2023-11-28T14:22:30 IST" name="titleofWindows" description="Verify the title of window link" finished-at="2023-11-28T14:22:30 IST" depends-on-methods="com.Bibhu.WebAutomation.WindowsHandle.launchApplication" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleofWindows -->
+        <test-method signature="windowsOperations()[pri:0, instance:com.Bibhu.WebAutomation.WindowsHandle@1139b2f3]" started-at="2023-11-28T14:22:30 IST" name="windowsOperations" description="Verify multiple windows operation" finished-at="2023-11-28T14:22:47 IST" depends-on-methods="com.Bibhu.WebAutomation.WindowsHandle.launchApplication" duration-ms="16467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowsOperations -->
+        <test-method is-config="true" signature="assertAfterEachTest()[pri:0, instance:com.Bibhu.WebAutomation.WindowsHandle@1139b2f3]" started-at="2023-11-28T14:26:51 IST" name="assertAfterEachTest" finished-at="2023-11-28T14:26:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAfterEachTest -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.Bibhu.WebAutomation.WindowsHandle@1139b2f3]" started-at="2023-11-28T14:26:57 IST" name="closeAll" finished-at="2023-11-28T14:26:57 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- com.Bibhu.WebAutomation.WindowsHandle -->
+      <class name="com.Bibhu.ObjectRepository.readPropertiesTest">
+        <test-method signature="readConfigProperties1()[pri:0, instance:com.Bibhu.ObjectRepository.readPropertiesTest@1ddf84b8]" started-at="2023-11-28T14:22:14 IST" name="readConfigProperties1" description="Read properties files using filepath" finished-at="2023-11-28T14:22:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfigProperties1 -->
+        <test-method signature="readConfigProperties2()[pri:0, instance:com.Bibhu.ObjectRepository.readPropertiesTest@1ddf84b8]" started-at="2023-11-28T14:22:14 IST" name="readConfigProperties2" description="Read properties files using resourceAsStream classloader" finished-at="2023-11-28T14:22:14 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfigProperties2 -->
+      </class> <!-- com.Bibhu.ObjectRepository.readPropertiesTest -->
+      <class name="com.Bibhu.WebAutomation.dropdowns">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.dropdowns@50a638b5]" started-at="2023-11-28T14:25:37 IST" name="launchBrowser" description="Lanching the chrome browser" finished-at="2023-11-28T14:25:40 IST" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.dropdowns@50a638b5]" started-at="2023-11-28T14:25:40 IST" name="launchApplication" description="Launching the application" finished-at="2023-11-28T14:26:04 IST" depends-on-methods="com.Bibhu.WebAutomation.dropdowns.launchBrowser" duration-ms="23171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SelectAllOptionsDropdown()[pri:0, instance:com.Bibhu.WebAutomation.dropdowns@50a638b5]" started-at="2023-11-28T14:26:04 IST" name="SelectAllOptionsDropdown" description="print all the options available in Dropdown" finished-at="2023-11-28T14:26:05 IST" depends-on-methods="com.Bibhu.WebAutomation.dropdowns.launchApplication" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectAllOptionsDropdown -->
+        <test-method signature="dropdownTitle()[pri:0, instance:com.Bibhu.WebAutomation.dropdowns@50a638b5]" started-at="2023-11-28T14:26:05 IST" name="dropdownTitle" description="verify dropdown title" finished-at="2023-11-28T14:26:09 IST" depends-on-methods="com.Bibhu.WebAutomation.dropdowns.launchApplication" duration-ms="4277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdownTitle -->
+      </class> <!-- com.Bibhu.WebAutomation.dropdowns -->
+      <class name="com.Bibhu.WebAutomation.TabHandle">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.TabHandle@6a400542]" started-at="2023-11-28T14:20:15 IST" name="launchBrowser" finished-at="2023-11-28T14:20:20 IST" duration-ms="5107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.TabHandle@6a400542]" started-at="2023-11-28T14:20:20 IST" name="launchApplication" finished-at="2023-11-28T14:20:34 IST" depends-on-methods="com.Bibhu.WebAutomation.TabHandle.launchBrowser" duration-ms="13555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="titleofWindowsTab()[pri:0, instance:com.Bibhu.WebAutomation.TabHandle@6a400542]" started-at="2023-11-28T14:20:34 IST" name="titleofWindowsTab" description="Verify the title of window link" finished-at="2023-11-28T14:20:34 IST" depends-on-methods="com.Bibhu.WebAutomation.TabHandle.launchApplication" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleofWindowsTab -->
+        <test-method signature="windowsTabOperations()[pri:0, instance:com.Bibhu.WebAutomation.TabHandle@6a400542]" started-at="2023-11-28T14:20:34 IST" name="windowsTabOperations" description="Verify multiple windows operation" finished-at="2023-11-28T14:20:45 IST" depends-on-methods="com.Bibhu.WebAutomation.TabHandle.launchApplication" duration-ms="10284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowsTabOperations -->
+        <test-method is-config="true" signature="assertAfterEachTest()[pri:0, instance:com.Bibhu.WebAutomation.TabHandle@6a400542]" started-at="2023-11-28T14:26:51 IST" name="assertAfterEachTest" finished-at="2023-11-28T14:26:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAfterEachTest -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.Bibhu.WebAutomation.TabHandle@6a400542]" started-at="2023-11-28T14:26:53 IST" name="closeAll" finished-at="2023-11-28T14:26:55 IST" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- com.Bibhu.WebAutomation.TabHandle -->
+      <class name="com.Bibhu.ObjectRepository.DataProviderTest">
+        <test-method signature="receiveTestData(java.lang.String,int)[pri:0, instance:com.Bibhu.ObjectRepository.DataProviderTest@30ee2816]" started-at="2023-11-28T14:21:34 IST" name="receiveTestData" data-provider="credentials" finished-at="2023-11-28T14:21:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveTestData -->
+        <test-method signature="receiveTestData(java.lang.String,int)[pri:0, instance:com.Bibhu.ObjectRepository.DataProviderTest@30ee2816]" started-at="2023-11-28T14:21:34 IST" name="receiveTestData" data-provider="credentials" finished-at="2023-11-28T14:21:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveTestData -->
+        <test-method signature="receiveTestData(java.lang.String,int)[pri:0, instance:com.Bibhu.ObjectRepository.DataProviderTest@30ee2816]" started-at="2023-11-28T14:21:34 IST" name="receiveTestData" data-provider="credentials" finished-at="2023-11-28T14:21:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveTestData -->
+      </class> <!-- com.Bibhu.ObjectRepository.DataProviderTest -->
+      <class name="com.Bibhu.WebAutomation.WebTableHandle">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.WebTableHandle@5e82df6a]" started-at="2023-11-28T14:23:33 IST" name="launchBrowser" description="Browser launching" finished-at="2023-11-28T14:23:37 IST" duration-ms="3801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.WebTableHandle@5e82df6a]" started-at="2023-11-28T14:23:37 IST" name="launchApplication" description="launching the Application and project" finished-at="2023-11-28T14:23:57 IST" depends-on-methods="com.Bibhu.WebAutomation.WebTableHandle.launchBrowser" duration-ms="19430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="titleOfWebLink()[pri:0, instance:com.Bibhu.WebAutomation.WebTableHandle@5e82df6a]" started-at="2023-11-28T14:23:57 IST" name="titleOfWebLink" description="Verify the title of WebTable Link" finished-at="2023-11-28T14:23:57 IST" depends-on-methods="com.Bibhu.WebAutomation.WebTableHandle.launchApplication" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleOfWebLink -->
+        <test-method signature="webTableOperation()[pri:0, instance:com.Bibhu.WebAutomation.WebTableHandle@5e82df6a]" started-at="2023-11-28T14:23:57 IST" name="webTableOperation" description="Perform operation on web table" finished-at="2023-11-28T14:24:03 IST" depends-on-methods="com.Bibhu.WebAutomation.WebTableHandle.launchApplication" duration-ms="5494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webTableOperation -->
+        <test-method is-config="true" signature="assertAfterEachTest()[pri:0, instance:com.Bibhu.WebAutomation.WebTableHandle@5e82df6a]" started-at="2023-11-28T14:26:51 IST" name="assertAfterEachTest" finished-at="2023-11-28T14:26:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAfterEachTest -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.Bibhu.WebAutomation.WebTableHandle@5e82df6a]" started-at="2023-11-28T14:26:55 IST" name="closeAll" finished-at="2023-11-28T14:26:57 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- com.Bibhu.WebAutomation.WebTableHandle -->
+      <class name="com.Bibhu.WebAutomation.IframesHandle">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.IframesHandle@7a69b07]" started-at="2023-11-28T14:22:47 IST" name="launchBrowser" finished-at="2023-11-28T14:22:51 IST" duration-ms="3715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.IframesHandle@7a69b07]" started-at="2023-11-28T14:22:51 IST" name="launchApplication" finished-at="2023-11-28T14:23:08 IST" depends-on-methods="com.Bibhu.WebAutomation.IframesHandle.launchBrowser" duration-ms="17346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="iframeOperation()[pri:0, instance:com.Bibhu.WebAutomation.IframesHandle@7a69b07]" started-at="2023-11-28T14:23:08 IST" name="iframeOperation" description="Verify the IfrmeOperation" finished-at="2023-11-28T14:23:28 IST" depends-on-methods="com.Bibhu.WebAutomation.IframesHandle.launchApplication" duration-ms="20252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeOperation -->
+        <test-method signature="verifyTitleofIframe()[pri:0, instance:com.Bibhu.WebAutomation.IframesHandle@7a69b07]" started-at="2023-11-28T14:23:28 IST" name="verifyTitleofIframe" description="Verify title of iframe link" finished-at="2023-11-28T14:23:33 IST" depends-on-methods="com.Bibhu.WebAutomation.IframesHandle.launchApplication" duration-ms="5088" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[5]/fieldset/legend"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5f64e434ec673f70d3993553fbc328a, findElement {using=xpath, value=/html/body/div[5]/fieldset/legend}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Bibhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49277/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5f64e434ec673f70d3993553fbc328a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[5]/fieldset/legend"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5f64e434ec673f70d3993553fbc328a, findElement {using=xpath, value=/html/body/div[5]/fieldset/legend}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Bibhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49277/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5f64e434ec673f70d3993553fbc328a
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at com.Bibhu.WebAutomation.IframesHandle.verifyTitleofIframe(IframesHandle.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleofIframe -->
+        <test-method is-config="true" signature="assertAfterEachTest()[pri:0, instance:com.Bibhu.WebAutomation.IframesHandle@7a69b07]" started-at="2023-11-28T14:26:51 IST" name="assertAfterEachTest" finished-at="2023-11-28T14:26:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAfterEachTest -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.Bibhu.WebAutomation.IframesHandle@7a69b07]" started-at="2023-11-28T14:26:51 IST" name="closeAll" finished-at="2023-11-28T14:26:52 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- com.Bibhu.WebAutomation.IframesHandle -->
+      <class name="com.Bibhu.WebAutomation.launchChromeBrowser">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.launchChromeBrowser@635eaaf1]" started-at="2023-11-28T14:21:34 IST" name="launchBrowser" finished-at="2023-11-28T14:21:37 IST" duration-ms="3365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.launchChromeBrowser@635eaaf1]" started-at="2023-11-28T14:21:37 IST" name="launchApplication" finished-at="2023-11-28T14:21:55 IST" depends-on-methods="com.Bibhu.WebAutomation.launchChromeBrowser.launchBrowser" duration-ms="18259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="selectProduct()[pri:0, instance:com.Bibhu.WebAutomation.launchChromeBrowser@635eaaf1]" started-at="2023-11-28T14:21:55 IST" name="selectProduct" description="Verify cart after adding item" finished-at="2023-11-28T14:22:03 IST" depends-on-methods="com.Bibhu.WebAutomation.launchChromeBrowser.launchApplication" duration-ms="7709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProduct -->
+        <test-method signature="verifyHomePageTitle()[pri:0, instance:com.Bibhu.WebAutomation.launchChromeBrowser@635eaaf1]" started-at="2023-11-28T14:22:03 IST" name="verifyHomePageTitle" finished-at="2023-11-28T14:22:03 IST" depends-on-methods="com.Bibhu.WebAutomation.launchChromeBrowser.launchApplication" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="VerifyItemAddedToCart()[pri:0, instance:com.Bibhu.WebAutomation.launchChromeBrowser@635eaaf1]" started-at="2023-11-28T14:22:03 IST" name="VerifyItemAddedToCart" finished-at="2023-11-28T14:22:03 IST" depends-on-methods="com.Bibhu.WebAutomation.launchChromeBrowser.selectProduct" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyItemAddedToCart -->
+        <test-method is-config="true" signature="closeSession()[pri:0, instance:com.Bibhu.WebAutomation.launchChromeBrowser@635eaaf1]" started-at="2023-11-28T14:22:03 IST" name="closeSession" finished-at="2023-11-28T14:22:14 IST" duration-ms="10524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+        <test-method is-config="true" signature="assertAllTest()[pri:0, instance:com.Bibhu.WebAutomation.launchChromeBrowser@635eaaf1]" started-at="2023-11-28T14:26:51 IST" name="assertAllTest" finished-at="2023-11-28T14:26:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAllTest -->
+      </class> <!-- com.Bibhu.WebAutomation.launchChromeBrowser -->
+      <class name="com.Bibhu.Parameterization.parameterizationTest">
+        <test-method signature="testParameterAtSuiteLevel(java.lang.String,java.lang.String)[pri:0, instance:com.Bibhu.Parameterization.parameterizationTest@31d7b7bf]" started-at="2023-11-28T14:21:34 IST" name="testParameterAtSuiteLevel" finished-at="2023-11-28T14:21:34 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bibhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterAtSuiteLevel -->
+      </class> <!-- com.Bibhu.Parameterization.parameterizationTest -->
+      <class name="com.Bibhu.WebAutomation.RadioButtons">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.RadioButtons@3f197a46]" started-at="2023-11-28T14:24:03 IST" name="launchBrowser" finished-at="2023-11-28T14:24:08 IST" duration-ms="5607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.RadioButtons@3f197a46]" started-at="2023-11-28T14:24:08 IST" name="launchApplication" description="Verify if Application is getting launched" finished-at="2023-11-28T14:24:32 IST" depends-on-methods="com.Bibhu.WebAutomation.RadioButtons.launchBrowser" duration-ms="23433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="RadioButtonOperations()[pri:0, instance:com.Bibhu.WebAutomation.RadioButtons@3f197a46]" started-at="2023-11-28T14:24:32 IST" name="RadioButtonOperations" finished-at="2023-11-28T14:24:52 IST" depends-on-methods="com.Bibhu.WebAutomation.RadioButtons.launchApplication" duration-ms="20120" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="radio-btn-example"]/fieldset/label[1]/input"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4943a1f85df76d769077bf8f07ec2e5c, findElement {using=xpath, value=//*[@id="radio-btn-example"]/fieldset/label[1]/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Bibhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4943a1f85df76d769077bf8f07ec2e5c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="radio-btn-example"]/fieldset/label[1]/input"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4943a1f85df76d769077bf8f07ec2e5c, findElement {using=xpath, value=//*[@id="radio-btn-example"]/fieldset/label[1]/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Bibhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4943a1f85df76d769077bf8f07ec2e5c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isSelected(Unknown Source)
+at com.Bibhu.WebAutomation.RadioButtons.RadioButtonOperations(RadioButtons.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioButtonOperations -->
+        <test-method signature="verifyRadioButtonPageTitle()[pri:0, instance:com.Bibhu.WebAutomation.RadioButtons@3f197a46]" started-at="2023-11-28T14:24:52 IST" name="verifyRadioButtonPageTitle" description="verify titile of radioButton link" finished-at="2023-11-28T14:25:12 IST" depends-on-methods="com.Bibhu.WebAutomation.RadioButtons.launchApplication" duration-ms="20060" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="radio-btn-example"]/fieldset/legend"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4943a1f85df76d769077bf8f07ec2e5c, findElement {using=xpath, value=//*[@id="radio-btn-example"]/fieldset/legend}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Bibhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4943a1f85df76d769077bf8f07ec2e5c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="radio-btn-example"]/fieldset/legend"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4943a1f85df76d769077bf8f07ec2e5c, findElement {using=xpath, value=//*[@id="radio-btn-example"]/fieldset/legend}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Bibhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4943a1f85df76d769077bf8f07ec2e5c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.getText(Unknown Source)
+at com.Bibhu.PageFactory.RadioButtonFactory.getTitleOfRadioButton(RadioButtonFactory.java:42)
+at com.Bibhu.WebAutomation.RadioButtons.verifyRadioButtonPageTitle(RadioButtons.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRadioButtonPageTitle -->
+        <test-method is-config="true" signature="assertAllTestMethods()[pri:0, instance:com.Bibhu.WebAutomation.RadioButtons@3f197a46]" started-at="2023-11-28T14:26:51 IST" name="assertAllTestMethods" finished-at="2023-11-28T14:26:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAllTestMethods -->
+      </class> <!-- com.Bibhu.WebAutomation.RadioButtons -->
+      <class name="com.Bibhu.WebAutomation.checkBox">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.checkBox@636be97c]" started-at="2023-11-28T14:25:12 IST" name="launchBrowser" finished-at="2023-11-28T14:25:16 IST" duration-ms="3879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.checkBox@636be97c]" started-at="2023-11-28T14:25:16 IST" name="launchApplication" finished-at="2023-11-28T14:25:31 IST" depends-on-methods="com.Bibhu.WebAutomation.checkBox.launchBrowser" duration-ms="15374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkBoxOperations()[pri:0, instance:com.Bibhu.WebAutomation.checkBox@636be97c]" started-at="2023-11-28T14:25:31 IST" name="checkBoxOperations" description="Verify checkbox selected or deselected" finished-at="2023-11-28T14:25:37 IST" depends-on-methods="com.Bibhu.WebAutomation.checkBox.launchApplication" duration-ms="5684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxOperations -->
+        <test-method signature="verifyTitleOfCheckbox()[pri:0, instance:com.Bibhu.WebAutomation.checkBox@636be97c]" started-at="2023-11-28T14:25:37 IST" name="verifyTitleOfCheckbox" description="Verify title of checkbox" finished-at="2023-11-28T14:25:37 IST" depends-on-methods="com.Bibhu.WebAutomation.checkBox.launchApplication" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfCheckbox -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.Bibhu.WebAutomation.checkBox@636be97c]" started-at="2023-11-28T14:26:57 IST" name="closeAll" finished-at="2023-11-28T14:26:57 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- com.Bibhu.WebAutomation.checkBox -->
+      <class name="com.Bibhu.WebAutomation.confirmationPopHandle">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.confirmationPopHandle@c267ef4]" started-at="2023-11-28T14:20:45 IST" name="launchBrowser" finished-at="2023-11-28T14:20:49 IST" duration-ms="4036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.confirmationPopHandle@c267ef4]" started-at="2023-11-28T14:20:49 IST" name="launchApplication" finished-at="2023-11-28T14:21:08 IST" depends-on-methods="com.Bibhu.WebAutomation.confirmationPopHandle.launchBrowser" duration-ms="18969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="confirmationpopUpOperations()[pri:0, instance:com.Bibhu.WebAutomation.confirmationPopHandle@c267ef4]" started-at="2023-11-28T14:21:08 IST" name="confirmationpopUpOperations" description="Confirmation pop up operations accept/cancel" finished-at="2023-11-28T14:21:34 IST" depends-on-methods="com.Bibhu.WebAutomation.confirmationPopHandle.launchApplication" duration-ms="25734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmationpopUpOperations -->
+        <test-method signature="titleOfAlertPop()[pri:0, instance:com.Bibhu.WebAutomation.confirmationPopHandle@c267ef4]" started-at="2023-11-28T14:21:34 IST" name="titleOfAlertPop" description="Verify the title of Alert" finished-at="2023-11-28T14:21:34 IST" depends-on-methods="com.Bibhu.WebAutomation.confirmationPopHandle.launchApplication" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleOfAlertPop -->
+        <test-method is-config="true" signature="assertAfterEachTest()[pri:0, instance:com.Bibhu.WebAutomation.confirmationPopHandle@c267ef4]" started-at="2023-11-28T14:26:51 IST" name="assertAfterEachTest" finished-at="2023-11-28T14:26:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAfterEachTest -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.Bibhu.WebAutomation.confirmationPopHandle@c267ef4]" started-at="2023-11-28T14:26:57 IST" name="closeAll" finished-at="2023-11-28T14:26:58 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- com.Bibhu.WebAutomation.confirmationPopHandle -->
+      <class name="com.Bibhu.WebAutomation.SearchAutosugesstion">
+        <test-method signature="launchBrowser()[pri:0, instance:com.Bibhu.WebAutomation.SearchAutosugesstion@1817d444]" started-at="2023-11-28T14:26:09 IST" name="launchBrowser" finished-at="2023-11-28T14:26:14 IST" duration-ms="4937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApplication()[pri:0, instance:com.Bibhu.WebAutomation.SearchAutosugesstion@1817d444]" started-at="2023-11-28T14:26:14 IST" name="launchApplication" finished-at="2023-11-28T14:26:46 IST" depends-on-methods="com.Bibhu.WebAutomation.SearchAutosugesstion.launchBrowser" duration-ms="31706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchAutoSuggestion()[pri:0, instance:com.Bibhu.WebAutomation.SearchAutosugesstion@1817d444]" started-at="2023-11-28T14:26:46 IST" name="searchAutoSuggestion" finished-at="2023-11-28T14:26:51 IST" depends-on-methods="com.Bibhu.WebAutomation.SearchAutosugesstion.launchApplication" duration-ms="5765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAutoSuggestion -->
+        <test-method is-config="true" signature="closeAll()[pri:0, instance:com.Bibhu.WebAutomation.SearchAutosugesstion@1817d444]" started-at="2023-11-28T14:26:52 IST" name="closeAll" finished-at="2023-11-28T14:26:53 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- com.Bibhu.WebAutomation.SearchAutosugesstion -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

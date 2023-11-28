@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="43" total="44" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-28T13:07:28 IST" name="Suite" finished-at="2023-11-28T13:07:28 IST" duration-ms="57">
+    <groups>
+      <group name="SanityTest">
+        <method signature="parameterizationTest.testParameterAtSuiteLevel(java.lang.String,java.lang.String)[pri:0, instance:com.Bibhu.Parameterization.parameterizationTest@4a94ee4]" name="testParameterAtSuiteLevel" class="com.Bibhu.Parameterization.parameterizationTest"/>
+      </group> <!-- SanityTest -->
+    </groups>
+    <test started-at="2023-11-28T13:07:28 IST" name="Test" finished-at="2023-11-28T13:07:28 IST" duration-ms="57">
+      <class name="com.Bibhu.Parameterization.parameterizationTest">
+        <test-method signature="testParameterAtSuiteLevel(java.lang.String,java.lang.String)[pri:0, instance:com.Bibhu.Parameterization.parameterizationTest@4a94ee4]" started-at="2023-11-28T13:07:28 IST" name="testParameterAtSuiteLevel" finished-at="2023-11-28T13:07:28 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bibhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterAtSuiteLevel -->
+      </class> <!-- com.Bibhu.Parameterization.parameterizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

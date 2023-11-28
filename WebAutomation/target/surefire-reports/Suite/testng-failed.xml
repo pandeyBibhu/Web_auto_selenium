@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="UserName" value="Bibhu"/>
+    <parameter name="Password" value="123456"/>
+    <classes>
+      <class name="com.Bibhu.WebAutomation.RadioButtons">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="assertAllTestMethods"/>
+          <include name="verifyRadioButtonPageTitle"/>
+          <include name="RadioButtonOperations"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.Bibhu.WebAutomation.RadioButtons -->
+      <class name="com.Bibhu.WebAutomation.IframesHandle">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeAll"/>
+          <include name="assertAfterEachTest"/>
+          <include name="launchBrowser"/>
+          <include name="verifyTitleofIframe"/>
+        </methods>
+      </class> <!-- com.Bibhu.WebAutomation.IframesHandle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="UserName" value="Bibhu"></parameter>
+		<parameter name="Password" value="123456"></parameter>
+<!--		<groups>-->
+<!--			<run>-->
+<!--				<include name="SanityTest"></include>-->
+<!--			</run>-->
+<!--		</groups>-->
+		<classes>
+			<class name="com.Bibhu.WebAutomation.TabHandle" />
+			<class name="com.Bibhu.WebAutomation.confirmationPopHandle" />
+			<class name="com.Bibhu.ObjectRepository.DataProviderTest" />
+			<class name="com.Bibhu.Parameterization.parameterizationTest" />
+			<class name="com.Bibhu.WebAutomation.launchChromeBrowser" />
+			<class name="com.Bibhu.ObjectRepository.readPropertiesTest" />
+			<class name="com.Bibhu.WebAutomation.WindowsHandle" />
+			<class name="com.Bibhu.WebAutomation.IframesHandle" />
+			<class name="com.Bibhu.WebAutomation.WebTableHandle" />
+			<class name="com.Bibhu.WebAutomation.RadioButtons" />
+			<class name="com.Bibhu.WebAutomation.checkBox" />
+			<class name="com.Bibhu.WebAutomation.dropdowns" />
+			<class name="com.Bibhu.WebAutomation.SearchAutosugesstion" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

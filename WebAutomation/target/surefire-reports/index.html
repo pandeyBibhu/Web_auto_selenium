@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Bibhu\WebAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">46 methods, 3 failed,   43 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.RadioButtons" class="method navigator-link" hash-for-method="RadioButtonOperations">RadioButtonOperations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.RadioButtons" class="method navigator-link" hash-for-method="verifyRadioButtonPageTitle">verifyRadioButtonPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.IframesHandle" class="method navigator-link" hash-for-method="verifyTitleofIframe">verifyTitleofIframe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.dropdowns" class="method navigator-link" hash-for-method="SelectAllOptionsDropdown">SelectAllOptionsDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.launchChromeBrowser" class="method navigator-link" hash-for-method="VerifyItemAddedToCart">VerifyItemAddedToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.checkBox" class="method navigator-link" hash-for-method="checkBoxOperations">checkBoxOperations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.confirmationPopHandle" class="method navigator-link" hash-for-method="confirmationpopUpOperations">confirmationpopUpOperations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.dropdowns" class="method navigator-link" hash-for-method="dropdownTitle">dropdownTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.IframesHandle" class="method navigator-link" hash-for-method="iframeOperation">iframeOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.dropdowns" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.confirmationPopHandle" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.SearchAutosugesstion" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.WindowsHandle" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.WebTableHandle" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.checkBox" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.RadioButtons" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.IframesHandle" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.TabHandle" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.launchChromeBrowser" class="method navigator-link" hash-for-method="launchApplication">launchApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.TabHandle" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.RadioButtons" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.IframesHandle" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.WindowsHandle" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.dropdowns" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.launchChromeBrowser" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.SearchAutosugesstion" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.confirmationPopHandle" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.WebTableHandle" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.checkBox" class="method navigator-link" hash-for-method="launchBrowser">launchBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.ObjectRepository.readPropertiesTest" class="method navigator-link" hash-for-method="readConfigProperties1">readConfigProperties1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.ObjectRepository.readPropertiesTest" class="method navigator-link" hash-for-method="readConfigProperties2">readConfigProperties2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.ObjectRepository.DataProviderTest" class="method navigator-link" hash-for-method="receiveTestData(Test1, 12345)">receiveTestData(Test1, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.ObjectRepository.DataProviderTest" class="method navigator-link" hash-for-method="receiveTestData(Test2, 123456)">receiveTestData(Test2, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.ObjectRepository.DataProviderTest" class="method navigator-link" hash-for-method="receiveTestData(Test3, 1234567)">receiveTestData(Test3, 1234567)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.SearchAutosugesstion" class="method navigator-link" hash-for-method="searchAutoSuggestion">searchAutoSuggestion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.launchChromeBrowser" class="method navigator-link" hash-for-method="selectProduct">selectProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.Parameterization.parameterizationTest" class="method navigator-link" hash-for-method="testParameterAtSuiteLevel(Bibhu, 123456)">testParameterAtSuiteLevel(Bibhu, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.confirmationPopHandle" class="method navigator-link" hash-for-method="titleOfAlertPop">titleOfAlertPop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.WebTableHandle" class="method navigator-link" hash-for-method="titleOfWebLink">titleOfWebLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.WindowsHandle" class="method navigator-link" hash-for-method="titleofWindows">titleofWindows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.TabHandle" class="method navigator-link" hash-for-method="titleofWindowsTab">titleofWindowsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.launchChromeBrowser" class="method navigator-link" hash-for-method="verifyHomePageTitle">verifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.checkBox" class="method navigator-link" hash-for-method="verifyTitleOfCheckbox">verifyTitleOfCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.WebTableHandle" class="method navigator-link" hash-for-method="webTableOperation">webTableOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.WindowsHandle" class="method navigator-link" hash-for-method="windowsOperations">windowsOperations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Bibhu.WebAutomation.TabHandle" class="method navigator-link" hash-for-method="windowsTabOperations">windowsTabOperations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.RadioButtons</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RadioButtonOperations">
+                  </a> <!-- RadioButtonOperations -->
+                  <span class="method-name">RadioButtonOperations</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;radio-btn-example&quot;]/fieldset/label[1]/input&quot;}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4943a1f85df76d769077bf8f07ec2e5c, findElement {using=xpath, value=//*[@id=&quot;radio-btn-example&quot;]/fieldset/label[1]/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Bibhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4943a1f85df76d769077bf8f07ec2e5c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.isSelected(Unknown Source)
+	at com.Bibhu.WebAutomation.RadioButtons.RadioButtonOperations(RadioButtons.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRadioButtonPageTitle">
+                  </a> <!-- verifyRadioButtonPageTitle -->
+                  <span class="method-name">verifyRadioButtonPageTitle</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;radio-btn-example&quot;]/fieldset/legend&quot;}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4943a1f85df76d769077bf8f07ec2e5c, findElement {using=xpath, value=//*[@id=&quot;radio-btn-example&quot;]/fieldset/legend}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Bibhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49365}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49365/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4943a1f85df76d769077bf8f07ec2e5c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.getText(Unknown Source)
+	at com.Bibhu.PageFactory.RadioButtonFactory.getTitleOfRadioButton(RadioButtonFactory.java:42)
+	at com.Bibhu.WebAutomation.RadioButtons.verifyRadioButtonPageTitle(RadioButtons.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(verify titile of radioButton link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.IframesHandle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleofIframe">
+                  </a> <!-- verifyTitleofIframe -->
+                  <span class="method-name">verifyTitleofIframe</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[5]/fieldset/legend&quot;}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5f64e434ec673f70d3993553fbc328a, findElement {using=xpath, value=/html/body/div[5]/fieldset/legend}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.159 (eaa767197fa..., userDataDir: C:\Users\Bibhu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49277/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5f64e434ec673f70d3993553fbc328a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.Bibhu.WebAutomation.IframesHandle.verifyTitleofIframe(IframesHandle.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Verify title of iframe link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.dropdowns</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectAllOptionsDropdown">
+                  </a> <!-- SelectAllOptionsDropdown -->
+                  <span class="method-name">SelectAllOptionsDropdown</span>
+                  <em>
+(print all the options available in Dropdown)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dropdownTitle">
+                  </a> <!-- dropdownTitle -->
+                  <span class="method-name">dropdownTitle</span>
+                  <em>
+(verify dropdown title)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                  <em>
+(Launching the application)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                  <em>
+(Lanching the chrome browser)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.confirmationPopHandle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmationpopUpOperations">
+                  </a> <!-- confirmationpopUpOperations -->
+                  <span class="method-name">confirmationpopUpOperations</span>
+                  <em>
+(Confirmation pop up operations accept/cancel)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleOfAlertPop">
+                  </a> <!-- titleOfAlertPop -->
+                  <span class="method-name">titleOfAlertPop</span>
+                  <em>
+(Verify the title of Alert)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.ObjectRepository.DataProviderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="receiveTestData(Test1, 12345)">
+                  </a> <!-- receiveTestData(Test1, 12345) -->
+                  <span class="method-name">receiveTestData</span>
+                  <span class="parameters">(Test1,12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="receiveTestData(Test2, 123456)">
+                  </a> <!-- receiveTestData(Test2, 123456) -->
+                  <span class="method-name">receiveTestData</span>
+                  <span class="parameters">(Test2,123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="receiveTestData(Test3, 1234567)">
+                  </a> <!-- receiveTestData(Test3, 1234567) -->
+                  <span class="method-name">receiveTestData</span>
+                  <span class="parameters">(Test3,1234567)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.SearchAutosugesstion</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchAutoSuggestion">
+                  </a> <!-- searchAutoSuggestion -->
+                  <span class="method-name">searchAutoSuggestion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.launchChromeBrowser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyItemAddedToCart">
+                  </a> <!-- VerifyItemAddedToCart -->
+                  <span class="method-name">VerifyItemAddedToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectProduct">
+                  </a> <!-- selectProduct -->
+                  <span class="method-name">selectProduct</span>
+                  <em>
+(Verify cart after adding item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle">
+                  </a> <!-- verifyHomePageTitle -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.WebTableHandle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                  <em>
+(launching the Application and project)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                  <em>
+(Browser launching)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleOfWebLink">
+                  </a> <!-- titleOfWebLink -->
+                  <span class="method-name">titleOfWebLink</span>
+                  <em>
+(Verify the title of WebTable Link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="webTableOperation">
+                  </a> <!-- webTableOperation -->
+                  <span class="method-name">webTableOperation</span>
+                  <em>
+(Perform operation on web table)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.TabHandle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleofWindowsTab">
+                  </a> <!-- titleofWindowsTab -->
+                  <span class="method-name">titleofWindowsTab</span>
+                  <em>
+(Verify the title of window link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowsTabOperations">
+                  </a> <!-- windowsTabOperations -->
+                  <span class="method-name">windowsTabOperations</span>
+                  <em>
+(Verify multiple windows operation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.ObjectRepository.readPropertiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="readConfigProperties1">
+                  </a> <!-- readConfigProperties1 -->
+                  <span class="method-name">readConfigProperties1</span>
+                  <em>
+(Read properties files using filepath)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readConfigProperties2">
+                  </a> <!-- readConfigProperties2 -->
+                  <span class="method-name">readConfigProperties2</span>
+                  <em>
+(Read properties files using resourceAsStream classloader)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.WindowsHandle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleofWindows">
+                  </a> <!-- titleofWindows -->
+                  <span class="method-name">titleofWindows</span>
+                  <em>
+(Verify the title of window link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowsOperations">
+                  </a> <!-- windowsOperations -->
+                  <span class="method-name">windowsOperations</span>
+                  <em>
+(Verify multiple windows operation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.RadioButtons</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                  <em>
+(Verify if Application is getting launched)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.IframesHandle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="iframeOperation">
+                  </a> <!-- iframeOperation -->
+                  <span class="method-name">iframeOperation</span>
+                  <em>
+(Verify the IfrmeOperation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.WebAutomation.checkBox</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBoxOperations">
+                  </a> <!-- checkBoxOperations -->
+                  <span class="method-name">checkBoxOperations</span>
+                  <em>
+(Verify checkbox selected or deselected)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApplication">
+                  </a> <!-- launchApplication -->
+                  <span class="method-name">launchApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchBrowser">
+                  </a> <!-- launchBrowser -->
+                  <span class="method-name">launchBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitleOfCheckbox">
+                  </a> <!-- verifyTitleOfCheckbox -->
+                  <span class="method-name">verifyTitleOfCheckbox</span>
+                  <em>
+(Verify title of checkbox)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Bibhu.Parameterization.parameterizationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testParameterAtSuiteLevel(Bibhu, 123456)">
+                  </a> <!-- testParameterAtSuiteLevel(Bibhu, 123456) -->
+                  <span class="method-name">testParameterAtSuiteLevel</span>
+                  <span class="parameters">(Bibhu,123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Bibhu\WebAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;UserName&quot; value=&quot;Bibhu&quot;/&gt;
+    &lt;parameter name=&quot;Password&quot; value=&quot;123456&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.TabHandle&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.confirmationPopHandle&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.ObjectRepository.DataProviderTest&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.Parameterization.parameterizationTest&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.launchChromeBrowser&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.ObjectRepository.readPropertiesTest&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.WindowsHandle&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.IframesHandle&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.WebTableHandle&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.RadioButtons&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.checkBox&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.dropdowns&quot;/&gt;
+      &lt;class name=&quot;com.Bibhu.WebAutomation.SearchAutosugesstion&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">SanityTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testParameterAtSuiteLevel</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(46);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchApplication')
+data.setCell(0, 2, 'com.Bibhu.WebAutomation.SearchAutosugesstion')
+data.setCell(0, 3, 31706);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'confirmationpopUpOperations')
+data.setCell(1, 2, 'com.Bibhu.WebAutomation.confirmationPopHandle')
+data.setCell(1, 3, 25734);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'launchApplication')
+data.setCell(2, 2, 'com.Bibhu.WebAutomation.RadioButtons')
+data.setCell(2, 3, 23433);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'launchApplication')
+data.setCell(3, 2, 'com.Bibhu.WebAutomation.dropdowns')
+data.setCell(3, 3, 23171);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'iframeOperation')
+data.setCell(4, 2, 'com.Bibhu.WebAutomation.IframesHandle')
+data.setCell(4, 3, 20252);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'RadioButtonOperations')
+data.setCell(5, 2, 'com.Bibhu.WebAutomation.RadioButtons')
+data.setCell(5, 3, 20120);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyRadioButtonPageTitle')
+data.setCell(6, 2, 'com.Bibhu.WebAutomation.RadioButtons')
+data.setCell(6, 3, 20060);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'launchApplication')
+data.setCell(7, 2, 'com.Bibhu.WebAutomation.WebTableHandle')
+data.setCell(7, 3, 19430);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'launchApplication')
+data.setCell(8, 2, 'com.Bibhu.WebAutomation.confirmationPopHandle')
+data.setCell(8, 3, 18969);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'launchApplication')
+data.setCell(9, 2, 'com.Bibhu.WebAutomation.launchChromeBrowser')
+data.setCell(9, 3, 18259);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'launchApplication')
+data.setCell(10, 2, 'com.Bibhu.WebAutomation.IframesHandle')
+data.setCell(10, 3, 17346);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'windowsOperations')
+data.setCell(11, 2, 'com.Bibhu.WebAutomation.WindowsHandle')
+data.setCell(11, 3, 16467);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'launchApplication')
+data.setCell(12, 2, 'com.Bibhu.WebAutomation.checkBox')
+data.setCell(12, 3, 15374);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'launchApplication')
+data.setCell(13, 2, 'com.Bibhu.WebAutomation.TabHandle')
+data.setCell(13, 3, 13555);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'launchApplication')
+data.setCell(14, 2, 'com.Bibhu.WebAutomation.WindowsHandle')
+data.setCell(14, 3, 12871);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'windowsTabOperations')
+data.setCell(15, 2, 'com.Bibhu.WebAutomation.TabHandle')
+data.setCell(15, 3, 10284);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'selectProduct')
+data.setCell(16, 2, 'com.Bibhu.WebAutomation.launchChromeBrowser')
+data.setCell(16, 3, 7709);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchAutoSuggestion')
+data.setCell(17, 2, 'com.Bibhu.WebAutomation.SearchAutosugesstion')
+data.setCell(17, 3, 5765);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkBoxOperations')
+data.setCell(18, 2, 'com.Bibhu.WebAutomation.checkBox')
+data.setCell(18, 3, 5684);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'launchBrowser')
+data.setCell(19, 2, 'com.Bibhu.WebAutomation.RadioButtons')
+data.setCell(19, 3, 5607);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'webTableOperation')
+data.setCell(20, 2, 'com.Bibhu.WebAutomation.WebTableHandle')
+data.setCell(20, 3, 5494);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'launchBrowser')
+data.setCell(21, 2, 'com.Bibhu.WebAutomation.TabHandle')
+data.setCell(21, 3, 5107);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyTitleofIframe')
+data.setCell(22, 2, 'com.Bibhu.WebAutomation.IframesHandle')
+data.setCell(22, 3, 5088);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'launchBrowser')
+data.setCell(23, 2, 'com.Bibhu.WebAutomation.SearchAutosugesstion')
+data.setCell(23, 3, 4937);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'dropdownTitle')
+data.setCell(24, 2, 'com.Bibhu.WebAutomation.dropdowns')
+data.setCell(24, 3, 4277);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'launchBrowser')
+data.setCell(25, 2, 'com.Bibhu.WebAutomation.confirmationPopHandle')
+data.setCell(25, 3, 4036);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'launchBrowser')
+data.setCell(26, 2, 'com.Bibhu.WebAutomation.checkBox')
+data.setCell(26, 3, 3879);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'launchBrowser')
+data.setCell(27, 2, 'com.Bibhu.WebAutomation.WebTableHandle')
+data.setCell(27, 3, 3801);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'launchBrowser')
+data.setCell(28, 2, 'com.Bibhu.WebAutomation.IframesHandle')
+data.setCell(28, 3, 3715);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'launchBrowser')
+data.setCell(29, 2, 'com.Bibhu.WebAutomation.dropdowns')
+data.setCell(29, 3, 3670);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'launchBrowser')
+data.setCell(30, 2, 'com.Bibhu.WebAutomation.WindowsHandle')
+data.setCell(30, 3, 3448);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'launchBrowser')
+data.setCell(31, 2, 'com.Bibhu.WebAutomation.launchChromeBrowser')
+data.setCell(31, 3, 3365);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'SelectAllOptionsDropdown')
+data.setCell(32, 2, 'com.Bibhu.WebAutomation.dropdowns')
+data.setCell(32, 3, 1052);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'titleofWindowsTab')
+data.setCell(33, 2, 'com.Bibhu.WebAutomation.TabHandle')
+data.setCell(33, 3, 709);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'titleOfWebLink')
+data.setCell(34, 2, 'com.Bibhu.WebAutomation.WebTableHandle')
+data.setCell(34, 3, 419);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'titleofWindows')
+data.setCell(35, 2, 'com.Bibhu.WebAutomation.WindowsHandle')
+data.setCell(35, 3, 384);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'VerifyItemAddedToCart')
+data.setCell(36, 2, 'com.Bibhu.WebAutomation.launchChromeBrowser')
+data.setCell(36, 3, 252);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'titleOfAlertPop')
+data.setCell(37, 2, 'com.Bibhu.WebAutomation.confirmationPopHandle')
+data.setCell(37, 3, 54);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyTitleOfCheckbox')
+data.setCell(38, 2, 'com.Bibhu.WebAutomation.checkBox')
+data.setCell(38, 3, 50);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyHomePageTitle')
+data.setCell(39, 2, 'com.Bibhu.WebAutomation.launchChromeBrowser')
+data.setCell(39, 3, 10);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'readConfigProperties2')
+data.setCell(40, 2, 'com.Bibhu.ObjectRepository.readPropertiesTest')
+data.setCell(40, 3, 1);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'readConfigProperties1')
+data.setCell(41, 2, 'com.Bibhu.ObjectRepository.readPropertiesTest')
+data.setCell(41, 3, 1);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'receiveTestData')
+data.setCell(42, 2, 'com.Bibhu.ObjectRepository.DataProviderTest')
+data.setCell(42, 3, 1);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'receiveTestData')
+data.setCell(43, 2, 'com.Bibhu.ObjectRepository.DataProviderTest')
+data.setCell(43, 3, 1);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'receiveTestData')
+data.setCell(44, 2, 'com.Bibhu.ObjectRepository.DataProviderTest')
+data.setCell(44, 3, 0);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testParameterAtSuiteLevel')
+data.setCell(45, 2, 'com.Bibhu.Parameterization.parameterizationTest')
+data.setCell(45, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.TabHandle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">5115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleofWindowsTab</span>
+                <span class="method-start">18672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">windowsTabOperations</span>
+                <span class="method-start">19382 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.confirmationPopHandle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">29667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">33707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">confirmationpopUpOperations</span>
+                <span class="method-start">52679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleOfAlertPop</span>
+                <span class="method-start">78418 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.ObjectRepository.DataProviderTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">receiveTestData(Test2, 123456)</span>
+                <span class="method-start">78485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">receiveTestData(Test1, 12345)</span>
+                <span class="method-start">78485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">receiveTestData(Test3, 1234567)</span>
+                <span class="method-start">78486 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.Parameterization.parameterizationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testParameterAtSuiteLevel(Bibhu, 123456)</span>
+                <span class="method-start">78500 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.launchChromeBrowser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">78504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">81873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectProduct</span>
+                <span class="method-start">100134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitle</span>
+                <span class="method-start">107848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyItemAddedToCart</span>
+                <span class="method-start">107859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeSession</span>
+                <span class="method-start">108117 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.ObjectRepository.readPropertiesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">readConfigProperties1</span>
+                <span class="method-start">118642 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">readConfigProperties2</span>
+                <span class="method-start">118644 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.WindowsHandle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">118648 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">122099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleofWindows</span>
+                <span class="method-start">134976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">windowsOperations</span>
+                <span class="method-start">135361 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.IframesHandle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">151829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">155549 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">iframeOperation</span>
+                <span class="method-start">172896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyTitleofIframe</span>
+                <span class="method-start">193149 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.WebTableHandle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">198253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">202056 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleOfWebLink</span>
+                <span class="method-start">221488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">webTableOperation</span>
+                <span class="method-start">221908 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.RadioButtons</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">227403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">233012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RadioButtonOperations</span>
+                <span class="method-start">256454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyRadioButtonPageTitle</span>
+                <span class="method-start">276576 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.checkBox</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">296637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">300522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkBoxOperations</span>
+                <span class="method-start">315897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitleOfCheckbox</span>
+                <span class="method-start">321582 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.dropdowns</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">321633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">325310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectAllOptionsDropdown</span>
+                <span class="method-start">348482 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dropdownTitle</span>
+                <span class="method-start">349535 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.SearchAutosugesstion</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">353813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApplication</span>
+                <span class="method-start">358752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchAutoSuggestion</span>
+                <span class="method-start">390459 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.IframesHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">assertAfterEachTest</span>
+                <span class="method-start">396224 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.RadioButtons</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">assertAllTestMethods</span>
+                <span class="method-start">396225 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.WindowsHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">assertAfterEachTest</span>
+                <span class="method-start">396226 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.WebTableHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">assertAfterEachTest</span>
+                <span class="method-start">396226 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.TabHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">assertAfterEachTest</span>
+                <span class="method-start">396226 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.confirmationPopHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">assertAfterEachTest</span>
+                <span class="method-start">396227 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.launchChromeBrowser</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">assertAllTest</span>
+                <span class="method-start">396228 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.IframesHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeAll</span>
+                <span class="method-start">396316 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.SearchAutosugesstion</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeAll</span>
+                <span class="method-start">397281 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.TabHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeAll</span>
+                <span class="method-start">397991 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.WebTableHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeAll</span>
+                <span class="method-start">400056 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.WindowsHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeAll</span>
+                <span class="method-start">401660 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.checkBox</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeAll</span>
+                <span class="method-start">402101 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Bibhu.WebAutomation.confirmationPopHandle</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeAll</span>
+                <span class="method-start">402373 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
